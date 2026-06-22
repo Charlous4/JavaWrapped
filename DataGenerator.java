@@ -6,9 +6,7 @@ public class DataGenerator {
         ArrayList<Ecoute> listeEcoutes = new ArrayList<>();
             
         Artiste yv = new Artiste("Yvnnis");
-        // On a enlevé le 187
         Musique m1 = new Musique("Bara", yv);
-        // On a enlevé le 120000
         Ecoute e1 = new Ecoute(m1);
 
         listeEcoutes.add(e1);
